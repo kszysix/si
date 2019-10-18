@@ -1,7 +1,7 @@
 (define (problem gsoko1a)
     (:domain hanoi)
     (:objects a b c d e x y z)
-    (:init 
+    (:init
         (na-krazku a b)
         (na-krazku b c)
         (na-krazku c d)
